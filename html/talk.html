@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>とーくめいかー</title>
+
+    <style>
+    .mainText{
+      text-align: center;
+      font-size: 500%;
+      margin-top: 140px;
+      font-weight: bold;
+    }
+    .gameButton{
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+    }
+    #button{
+      margin-right: 50px;
+    }
+    #button2{
+      margin-left: 50px;
+    }
+    #start{
+      background: #fffacd;
+      font-size: 20px;
+      padding: 18px 32px;
+      color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #stop{
+      background: #fffacd;
+      font-size: 20px;
+      padding: 18px 32px;
+      color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #button3{
+      text-align: center;
+      margin-top: 70px;
+    }
+    #reset{
+      background-color: blue;
+      font-size: 20px;
+      padding: 18px 32px;
+      color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="mainText">
+      <div id='neta'>と〜くめいか〜</div>
+    </div>
+    <div class="gameButton">
+      <div id="button"><a href="#" id="start">スタート</a></div>
+      <div id="button2"><a href="#" id="stop">ストップ</a></div>
+    </div>
+      <div id="button3"><a href="talk.html" id="reset">リセット</a></div>
+  <script>
+  'use strict';
+
+  let netaList = ["小さい頃好きだったもの", "好きな食べ物", "本気の自慢話", "マイブーム", "好きな異性のタイプ", "好きな芸能人", "趣味", "めちゃくちゃオススメのお店", "やらかした事", "卒業する前に一度はやりたい事",
+"人生で一度はやりたい事", "恋人にしたい人の絶対条件"];
+
+//スタートをクリックした時に起動する関数
+  document.getElementById('start').onclick = function(){
+
+    //文字がシャッフル表示される関数
+    let shuffle = setInterval(function(){
+      const rnd = Math.floor(Math.random() * netaList.length);
+      document.getElementById('neta').textContent = netaList[rnd];
+      },1);
+      //ストップをクリックした時に起動する関数
+      document.getElementById('stop').onclick = function () {
+        clearInterval(shuffle);
+        
+      }
+  }
+
+  </script>
+  </body>
+</html>
