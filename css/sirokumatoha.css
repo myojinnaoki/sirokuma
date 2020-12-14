@@ -123,9 +123,7 @@ h3{
   margin: 0px 50px;
   margin-bottom: 70px;
 }
-.katudoImg{
-  width: 40vw;
-}
+
 
 
 .katudouComent{
@@ -134,6 +132,7 @@ h3{
   background-color: rgba(0, 0, 128, 0.2);
   padding: 20px;
   border-radius: 12px;
+  
 }
 h4{
   font-size: 24pt;
@@ -732,9 +731,20 @@ button.startBtn:hover{
     border-radius: 10px;
   }
 
-  
-  
-
+}
+/*-----------------タブレット対応-------------------------*/
+@media screen and (min-width:701px) and ( max-width:1250px){
+  .katudou{
+    display: inline;
+    margin: 0px auto;
+    margin-bottom: 70px;
+  }
+  .img-pos{
+    text-align: center;
+  }
+  .katudouComent{
+    margin: 0 10px;
+  }
 
 
 }
