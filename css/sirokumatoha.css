@@ -189,8 +189,7 @@ button.startBtn:hover{
   margin-top: 30px;
 }
 .sakuhinImg{
-  width: 380px;
-  height: 220px;
+  width: 390px;
 }
 /*-----------------ここからおといあわせ-------------------------*/
 #otoiawase{
@@ -597,7 +596,7 @@ button.startBtn:hover{
     margin-top: 20px;
   }
   #sirokumaTop{
-    width: 95vw;
+    width: 90vw;
     max-width: 610px;
     
   }
@@ -640,8 +639,7 @@ button.startBtn:hover{
   }
 
   .katudoImg{
-    width: 315px;
-    height: 180px;
+    width: 90vw
   }
   .katudouComent{
     margin: 0 auto;
@@ -649,6 +647,7 @@ button.startBtn:hover{
     background-color: rgba(0, 0, 128, 0.2);
     padding: 20px;
     border-radius: 12px;
+    width: 90vw;
   }
 
   h4{
@@ -702,8 +701,7 @@ button.startBtn:hover{
     margin-top: 30px;
   }
   .sakuhinImg{
-    width: 315px;
-    height: 180px;
+    width: 90vw;
   }
   
 
@@ -748,6 +746,7 @@ button.startBtn:hover{
   .katudouComent{
     margin: 0 10px;
   }
+  
 
 
 }
