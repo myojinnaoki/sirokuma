@@ -639,6 +639,14 @@ button.startBtn:hover{
   #message2{
     font-size: 8pt;
   }
+  #buinn{
+    width: 130px;
+    height: 130px;
+  }
+  #message3{
+    font-size: 12pt;
+    padding: 50px 10px 0px;
+  }
   /*--------かつどうないよう---------*/
   .katudou{
     display: inline;
