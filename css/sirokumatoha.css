@@ -303,8 +303,8 @@ button.startBtn:hover{
   font-size: 16pt;
 }
 #message3{
-  font-size: 40pt;
-  padding: 70px 10px 0px;
+  font-size: 18pt;
+  padding: 20px 10px 0px;
 }
 .message-right {
   position: relative;
@@ -643,8 +643,8 @@ button.startBtn:hover{
     height: 130px;
   }
   #message3{
-    font-size: 12pt;
-    padding: 50px 10px 0px;
+    font-size: 10pt;
+    padding: 15px 10px 0px;
   }
   /*--------かつどうないよう---------*/
   .katudou{
