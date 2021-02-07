@@ -1,20 +1,22 @@
 /*-----------------共通部分-------------------------*/
 /*--------ヘッダー---------*/
-h2{
-  color: white;
-  font-family: "Nico Moji";
-  font-size: 42pt;
-  margin-left: 30px;
-}
+
 #header-content{
   display: flex;
   justify-content: space-between;
-  background-color: #202020;
-  padding:30px 0;
+  background-color: white;
+  padding: 5px;
+  padding-bottom: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
 }
+.title-logo{
+  display: none;
+}
+
 .header-menu{
   display: flex;
   margin-right: -40px;
+  margin-top: 60px
   
 }
 li.mainNav{
@@ -22,7 +24,7 @@ li.mainNav{
   font-family: "Nico Moji";
   font-size: 18pt;
   margin-left: 40px;
-  margin-top: 15px
+  
 }
 
 a.headerNav:hover{
@@ -32,7 +34,7 @@ a.headerNav:hover{
 
 a.headerNav{
   text-decoration: none;
-  color: white;
+  color: #3CB5E0;
   font-weight: bold;
 }
 a.foot{
@@ -44,15 +46,11 @@ a.foot:hover{
   border-color: white;
   
 }
-a.title{
-  text-decoration: none;
-  color: white;
-}
-
 nav{
   margin-left: 50px;
   margin-right: 50px;
 }
+
 /*--------フッター---------*/
 footer{
   color: white;
@@ -88,7 +86,7 @@ h3{
   text-align: center;
   font-size: 36pt;
   color: white;
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 /*-----------------しろくまlabとは-------------------------*/
@@ -412,14 +410,21 @@ button.startBtn:hover{
   header{
     display: flex;
     padding-bottom: 5px;
-    background-color: #202020;
+    background-color: black;
+    height: 70px;
   }
-  h2{
-    color: white;
+  .title-logo{
+    display: inline;
+    text-decoration: none;
+  }
+  .title-logo h1{
     font-family: "Nico Moji";
-    font-size: 20pt;
-    margin-left: 5px;
-    margin-top: -10px;
+    font-size: 24pt;
+    color: white;
+    margin-top: 10px;
+  }
+  .logo{
+    display: none;
   }
   #mainContent{
     background: rgba(255, 255, 255, .2);
@@ -436,6 +441,8 @@ button.startBtn:hover{
   #header-content{
     display: inline;
     justify-content: space-between;
+    clip-path: none;
+    background-color: black;
   }
   .header-menu{
     display: inline;
@@ -446,10 +453,14 @@ button.startBtn:hover{
     color: white;
     border-bottom: none;
   }
+  a.headerNav{
+    color: white;
+  }
   li.mainNav{
     list-style: none;
     font-family: "Nico Moji";
     font-size: 15pt;
+    margin-bottom: 15px;
   }
   nav{
     margin-right: 0px;
@@ -561,7 +572,7 @@ button.startBtn:hover{
     bottom: 4px;
   }
   .open .toggle_btn span {
-    background-color: #fff;
+    background-color: white;
   }
   .open .toggle_btn span:nth-child(1) {
     -webkit-transform: translateY(10px) rotate(-315deg);

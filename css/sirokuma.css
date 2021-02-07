@@ -1,17 +1,25 @@
+header{
+  display: flex;
+  justify-content: space-around;
+}
 h1{
-  font-size: 120pt;
+  font-size: 110pt;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
   color: white;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+.main-char{
+  width: 40%;
+  height: 40%;
 }
 li{
-  text-align: center;
   list-style: none;
-  float: left;
-  width: 25%;
   color: white;
   font-size: 28pt;
-  margin-top: 80px;
+  margin: 20px 0;
+  margin-left: 30px;
   
 }
 
@@ -34,12 +42,19 @@ a:hover{
   h1{
     font-size: 60pt;
     margin-top: 100px;
+    text-align: center;
+    margin-left: 0;
   }
   li{
     float: none;
     font-size: 18pt;
     width: 100%;
     margin-top: 60px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .main-char{
+    display: none;
   }
   
 }
