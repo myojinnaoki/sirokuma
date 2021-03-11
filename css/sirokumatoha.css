@@ -729,7 +729,10 @@ button.startBtn:hover{
   .sakuhinImg{
     width: 90vw;
   }
-  
+  /*--------コラボ---------*/
+  .CGsakuhin{
+    display:inline;
+  }
 
 
   /*--------おといあわせ---------*/
