@@ -7,6 +7,9 @@
 }
 .CGsakuhin{
     display:flex;
+    margin :0 30px;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 .CGimg-pos{
     position: absolute;
@@ -61,4 +64,27 @@
 }
 .CGimg-pos img:nth-of-type(8) {
     animation-delay: 21s;
+}
+
+.CGsakuhinComment{
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 128, 0.2);
+    margin-left:30px;
+    padding:20px;
+    border-radius: 10px;
+    width:950px;
+}
+
+.CollaboComment{
+    list-style:inside;
+    margin-bottom:10px;
+}
+
+.collabokansou{
+    margin-top:50px;
+}
+
+.Bysirokuma{
+    text-align: right;
+    font-size: 1.7rem;
 }
