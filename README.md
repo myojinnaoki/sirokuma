@@ -12,4 +12,4 @@ HTML、CSS、JavaScriptを使用して作成した、自作のゲームなども
 - jquery 3.4.1
 
 ## 公開ページ
-https://c-shiraga.github.io/sirokuma/index.html
+https://shirokuma-lab.github.io/sirokuma/
